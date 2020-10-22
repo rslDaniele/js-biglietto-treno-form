@@ -41,7 +41,7 @@ function() {
 // GENERA NUMERO CARROZZA
 bottone.addEventListener('click',
 function() {
-  ticket3.innerHTML = Math.floor(Math.random() * 101);
+  ticket3.innerHTML = Math.floor(Math.random() * 21);
 
 } );
 
