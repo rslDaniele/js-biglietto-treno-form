@@ -11,27 +11,33 @@
 
     <div class="container-input">
 
-      <input id="Name" type="text" name="" value="" placeholder="Nome e congnome">
+      <form class="" action="index.html" method="post">
 
-      <input id="Chilometri "type="text" name="" value="" placeholder="Quanti Km percorrerai?">
+        <input id="nome" type="text" name="Identità" placeholder="Nome e Congnome" value="">
 
-      <input id="Eta"type="text" name="" value="" placeholder="Età passeggero">
+        <input id="distanza" type="number" name="Chilometri" placeholder="Quanti Km percorrerai?" value="">
+
+        <input id="age" type="number" name="Eta" placeholder="Quanti anni hai?" value="">
+
+        <div class="container-bottoni">
+
+          <button id="genera" onclick="stampaTicket()" type="button" name="button">GENERA BIGLIETTO</button>
+          <button id="annulla" onclick="resetTicket()" type="button" name="button">ANNULLA</button>
+
+        </div>
+
+      </form>
 
     </div>
 
-    <div class="container-bottoni">
-
-      <button type="button" name="genera">GENERA</button>
-      <button type="button" name="annulla">ANNULLA</button>
-
-
-    </div>
-
-    <div class="biglietto">
+    <!-- BIGLIETTO CHE APPARE/SCOMPARE -->
+    <div  id="Ticket" class="biglietto">
 
       <div class="NomeCognome">
 
         <h3>NOME COGNOME</h3>
+
+        <p id="ticket1"></p>
 
       </div>
 
@@ -39,11 +45,15 @@
 
         <h3>Offerta</h3>
 
+        <p id="ticket2"></p>
+
       </div>
 
       <div class="Carrozza">
 
         <h3>Carrozza</h3>
+
+        <p id="ticket3"></p>
 
       </div>
 
@@ -51,18 +61,22 @@
 
         <h3>Codice CP</h3>
 
+        <p id="ticket4"></p>
+
       </div>
 
       <div class="Prezzo">
 
         <h3>Costo biglietto</h3>
 
+        <p id="ticket5" ></p>
+
       </div>
 
     </div>
 
 
-  <script type="text/javascript" src="javascript/mysrcipt.js">
+  <script type="text/javascript" src="javascript/myscript.js">
 
   </script>
 

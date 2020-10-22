@@ -21,6 +21,8 @@ input{
   width: 30%;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 button{
@@ -35,7 +37,7 @@ button{
   display: table;
 }
 
-.biglietto{
+#Ticket{
   margin-top: 20px;
   border: 2px solid black;
   width: 70%;
@@ -77,4 +79,44 @@ button{
   width: calc(75% / 4);
   padding: 10px;
 
+}
+
+h3{
+  text-align: center;
+}
+
+
+#ticket1{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#ticket2{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#ticket3{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#ticket4{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#ticket5{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
