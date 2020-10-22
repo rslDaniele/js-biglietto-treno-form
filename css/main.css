@@ -1,0 +1,79 @@
+/* Regole generali */
+*{
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-input{
+  text-align: center;
+  border: 2px solid black;
+  width: 70%;
+  margin-top: 20px;
+}
+
+input{
+  margin: 10px;
+  padding: 10px;
+}
+
+.container-bottoni{
+  width: 30%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+button{
+  padding: 5px;
+  margin: 3px;
+  width: 50%;
+}
+
+.biglietto::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.biglietto{
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 70%;
+}
+
+.NomeCognome{
+  float: left;
+  width: 25%;
+  height: 150px;
+  background-color: lightgrey;
+  padding: 10px;
+
+}
+
+.Offerta{
+  float: left;
+  width: calc(75% / 4);
+  padding: 10px;
+
+}
+
+.Carrozza{
+  float: left;
+  width: calc(75% / 4);
+  padding: 10px;
+
+}
+
+.Codice{
+  float: left;
+  width: calc(75% / 4);
+  padding: 10px;
+
+}
+
+.Prezzo{
+  float: left;
+  width: calc(75% / 4);
+  padding: 10px;
+
+}
