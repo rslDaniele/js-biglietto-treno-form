@@ -52,15 +52,6 @@ function() {
 
 } );
 
-bottone.addEventListener('click',
-function() {
-  if (eta < 18){
-  prezzo = (prezzo - scontoUnder );
-} else if (eta > 65) {
-  prezzo = (prezzo - scontoOver );
-
-}
-} );
 
 // STAMPA PREZZO
 bottone.addEventListener('click',
